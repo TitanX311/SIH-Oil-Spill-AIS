@@ -9,7 +9,7 @@ import segmentation_models_pytorch as smp
 
 from torch.utils.data import DataLoader, Subset
 
-from src.dataset import OilSpillDataset
+from src.data.dataset import OilSpillDataset
 
 
 # =========================================================

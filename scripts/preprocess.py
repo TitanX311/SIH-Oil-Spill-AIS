@@ -6,7 +6,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 import numpy as np
 import albumentations as A
 
-from src.instance import Instance
+from src.data.instance import Instance
 from src.common import *
 
 

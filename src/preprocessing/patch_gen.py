@@ -1,7 +1,7 @@
 import albumentations as A
 
 from src.common import *
-from src.instance import Instance
+from src.data.instance import Instance
 
 OUTPUT_DIR = Path("./processed")
 BAND_OUT_DIR = OUTPUT_DIR / "bands"

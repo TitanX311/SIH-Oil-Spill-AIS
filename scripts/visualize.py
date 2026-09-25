@@ -6,7 +6,7 @@ import torch
 import matplotlib.pyplot as plt
 from segmentation_models_pytorch import Unet
 
-from src.dataset import OilSpillDataset
+from src.data.dataset import OilSpillDataset
 
 
 # ============================================================

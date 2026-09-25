@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader, random_split
 
 from segmentation_models_pytorch import Unet
 
-from src.dataset import OilSpillDataset
+from src.data.dataset import OilSpillDataset
 
 
 # =========================================================
