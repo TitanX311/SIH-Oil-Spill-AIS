@@ -254,7 +254,3 @@ uvicorn src.image_processing_server.app:app --host 0.0.0.0 --port 8000
 # 4. Open the UI (optional)
 streamlit run src/streamlit/main.py
 ```
-
-## License
-
-This project is for research and internal application use unless a separate license is provided by the repository owner.
